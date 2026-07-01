@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+/* =========================
+   Root
+========================= */
+
+:root {
+  --bg: #000000;
+  --fg: #f8fafc;
+  --accent: #3b82f6;
+}
+
+/* =========================
+   Global
+========================= */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+
+  font-family:
+    Inter,
+    "SF Pro Display",
+    "Helvetica Neue",
+    sans-serif;
+
+  overflow-x: hidden;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Selection */
+
+::selection {
+  background: rgba(59,130,246,.35);
+  color: white;
+}
+
+/* Image */
+
+img {
+  display: block;
+  max-width: 100%;
+  user-select: none;
+  pointer-events: none;
+}
+
+/* Button */
+
+button {
+  cursor: pointer;
+}
+
+/* Link */
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #262626;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3b82f6;
+}
