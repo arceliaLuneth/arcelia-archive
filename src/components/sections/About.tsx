@@ -136,7 +136,7 @@ export default function About() {
   className="relative min-h-[760px] overflow-hidden border border-white/10 bg-[#111111] shadow-[0_0_60px_rgba(255,255,255,0.03)]"
 >
   <Image
-    src="/images/arcelia2.png"
+    src="/images/Arcelia.JPG"
     alt="Arcelia"
     fill
     priority
